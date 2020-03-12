@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: rgba(20, 170, 190, 0.281);
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url('https://cdn.checkyeti.com/images%2Foriginal%2F22712445660_d3a15fe80f_o2.jpg') ;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: royalblue;
+}
+.mask{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
